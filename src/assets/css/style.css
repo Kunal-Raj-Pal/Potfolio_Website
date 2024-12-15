@@ -75,22 +75,10 @@ li{
   justify-content: center;
 }
 
-.strip{
-   background-color: skyblue;
-   height: 5vh;
-   width: 25vh;
-   opacity: 0;
-}
-
-/* .hello{
-  position: relative;
-  left: -10vw;
-} */
 .name{
  font-size: 5rem;
  color: rgb(0, 157, 255);
 }
-
 
 
 .circle{

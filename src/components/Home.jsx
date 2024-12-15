@@ -370,16 +370,6 @@ function Home() {
             backgroundColor: "red",
             delay: 4,
           });
-
-          var striptl = gsap.timeline();
-          striptl.to(".strip", {
-            borderBottomLeftRadius: '12',
-            borderTopLeftRadius: '12',
-            position: "relative",
-            y:"139",
-            opacity: "20%",
-            delay: 4.2,
-          });
     
           var homeptl = gsap.timeline();
           homeptl.from("#homep", {
@@ -708,7 +698,6 @@ function Home() {
     <>
       {/* ---------------------------------------Home Start--------------------------------------- */}
       <div className="home">
-        <div className="strip"></div>
         <h1 className="hero-h1">
           <div className="circle"></div>
           <span className="hello">Hello,</span> <span className="im">I'm</span>
@@ -900,7 +889,7 @@ function Home() {
                 alt=""
               />
             </a>
-            <a href="https://www.linkedin.com/in/kunal-raj-pal/">
+            <a href="https://www.instagram.com/kunal_raj_pal">
               <img
                 className="insta"
                 src={"https://portfolio-api-wnrc.onrender.com/media/images/insta.png"}
