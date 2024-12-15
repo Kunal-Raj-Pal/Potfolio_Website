@@ -5,6 +5,7 @@ import axios from "axios";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { Link } from "react-router-dom";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
@@ -933,7 +934,7 @@ function Home() {
           <br /> Let’s build something together!
         </h1>
         <button className="lb">
-          <a href="/contact/">Contact</a>
+          <Link to="/contact/">Contact</Link>
         </button>
       </div>
     </>
