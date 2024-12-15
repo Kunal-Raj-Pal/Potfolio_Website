@@ -75,6 +75,13 @@ li{
   justify-content: center;
 }
 
+.strip{
+   background-color: skyblue;
+   height: 5vh;
+   width: 25vh;
+   opacity: 0;
+}
+
 /* .hello{
   position: relative;
   left: -10vw;
@@ -673,7 +680,7 @@ form textarea{
    border-radius: 2vh;
    width: 80vw;
    display: grid;
-   grid-template-columns: auto auto auto;
+   grid-template-columns: auto auto;
    column-gap: 3vh;
    row-gap: 5vh;
    padding: 5vh;

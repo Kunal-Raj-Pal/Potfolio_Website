@@ -352,7 +352,7 @@ function Home() {
           var etl = gsap.timeline();
           etl.to(".circle", {
             rotate: 270,
-            x: "23vh",
+            x: "20vh",
             backgroundColor: "#F5F7F9",
             delay: 3,
             borderRadius: "1.2vh",
@@ -369,6 +369,16 @@ function Home() {
           bodytl.from("html,body", {
             backgroundColor: "red",
             delay: 4,
+          });
+
+          var striptl = gsap.timeline();
+          striptl.to(".strip", {
+            borderBottomLeftRadius: '12',
+            borderTopLeftRadius: '12',
+            position: "relative",
+            y:"139",
+            opacity: "20%",
+            delay: 4.2,
           });
     
           var homeptl = gsap.timeline();
@@ -698,6 +708,7 @@ function Home() {
     <>
       {/* ---------------------------------------Home Start--------------------------------------- */}
       <div className="home">
+        <div className="strip"></div>
         <h1 className="hero-h1">
           <div className="circle"></div>
           <span className="hello">Hello,</span> <span className="im">I'm</span>
