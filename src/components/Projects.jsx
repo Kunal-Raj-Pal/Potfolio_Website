@@ -1,4 +1,5 @@
 import React from 'react'
+import food from "../assets/img/food.png"
 
 function Projects() {
   return (
@@ -17,7 +18,7 @@ function Projects() {
         </div>
 
         <div className="project-card">
-          <img src={'https://portfolio-api-wnrc.onrender.com/media/images/food.png'} alt="" />
+          <img src={food} alt="" />
           <h1>Restaurant Web</h1>
           <p>
             I have developed a fully responsive Restaurant Web App with Working

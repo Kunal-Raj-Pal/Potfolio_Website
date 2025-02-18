@@ -1,5 +1,23 @@
 import React from "react";
 
+import django from "../assets/img/django.png"
+import github from "../assets/img/github.png"
+import reacts from "../assets/img/react.png"
+import css from "../assets/img/css.png"
+import bootstrap from "../assets/img/bootstrap.png"
+import ds from "../assets/img/ds.png"
+import food from "../assets/img/food.png"
+import gsaps from "../assets/img/gsaps.png"
+import html from "../assets/img/html.png"
+import insta from "../assets/img/insta.png"
+import js from "../assets/img/js.png"
+import laptop from "../assets/img/laptop.png"
+import linkdin from "../assets/img/linkdin.png"
+import note from "../assets/img/note.png"
+import python from "../assets/img/python.png"
+import sql from "../assets/img/sql.png"
+import tailwind from "../assets/img/tailwind.png"
+
 function About() {
   return (
     <>
@@ -9,7 +27,7 @@ function About() {
         <div className="abtcards">
           <div className="abtcards-top">
             <span id="abt-spn" className="d ">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/ds.png"} alt="" />
+              <img src={ds} alt="" />
               <div className="rght">
                 <h1>Passionate Web Developer</h1>
                 <p>
@@ -22,7 +40,7 @@ function About() {
             </span>
 
             <span id="abt-spn2" className="d ">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/note.png"} alt="" />
+              <img src={note} alt="" />
               <div className="rght">
                 <h1>Problem Solver</h1>
                 <p>
@@ -37,7 +55,7 @@ function About() {
           <div className="abtcards-botm">
             <span id="abt-spn3" className="d ">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/laptop.png"}
+                src={laptop}
                 alt=""
               />
               <div className="rght ms-2">
@@ -50,7 +68,7 @@ function About() {
             </span>
 
             <span id="abt-spn4" className="d ">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/ds.png"} alt="" />
+              <img src={ds} alt="" />
               <div className="rght ms-2">
                 <h1>Technical Skills</h1>
                   <p>
@@ -75,53 +93,53 @@ function About() {
           <div className="skills-logo">
             <div className="tech-logo django">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/django.png"}
+                src={django}
                 alt=""
               />
             </div>
             <div className="tech-logo gsap ">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/react.png"}
+                src={reacts}
                 alt=""
               />
             </div>
             <div className="tech-logo js">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/gsap.png"} alt="" />
+              <img src={gsaps} alt="" />
             </div>
             <div className="tech-logo html">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/js.png"} alt="" />
+              <img src={js} alt="" />
             </div>
             <div className="tech-logo css">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/css.png"} alt="" />
+              <img src={css} alt="" />
             </div>
             <div className="tech-logo github">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/html.png"} alt="" />
+              <img src={html} alt="" />
             </div>
             <div className="tech-logo sql">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/sql.png"} alt="" />
+              <img src={sql} alt="" />
             </div>
             <div className="tech-logo python">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/python.png"}
+                src={python}
                 alt=""
               />
             </div>
             <div className="tech-logo tailwind">
               <img
                 className="h-50"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/tailwind.png"}
+                src={tailwind}
                 alt=""
               />
             </div>
             <div className="tech-logo boots">
               <img
                 className="h-50"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/bootstrap.png"}
+                src={bootstrap}
                 alt=""
               />
             </div>
             <div className="tech-logo boots">
-            <img className="h-50" src={'https://portfolio-api-wnrc.onrender.com/media/images/github.png'} alt=""/>
+            <img className="h-50" src={github} alt=""/>
             </div>
           </div>
         </div>
@@ -131,21 +149,21 @@ function About() {
             <a href="">
               <img
                 className="githubsm"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/github.png"}
+                src={github}
                 alt=""
               />
             </a>
             <a href="">
               <img
                 className="linkdin"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/linkdin.png"}
+                src={linkdin}
                 alt=""
               />
             </a>
             <a href="">
               <img
                 className="insta"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/insta.png"}
+                src={insta}
                 alt=""
               />
             </a>

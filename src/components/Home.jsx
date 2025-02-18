@@ -7,6 +7,26 @@ import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { Link } from "react-router-dom";
 
+import django from "../assets/img/django.png"
+import github from "../assets/img/github.png"
+import reacts from "../assets/img/react.png"
+import css from "../assets/img/css.png"
+import bootstrap from "../assets/img/bootstrap.png"
+import ds from "../assets/img/ds.png"
+import food from "../assets/img/food.png"
+import gsaps from "../assets/img/gsaps.png"
+import html from "../assets/img/html.png"
+import insta from "../assets/img/insta.png"
+import js from "../assets/img/js.png"
+import laptop from "../assets/img/laptop.png"
+import linkdin from "../assets/img/linkdin.png"
+import money from "../assets/img/money.png"
+import note from "../assets/img/note.png"
+import pc from "../assets/img/pc.png"
+import python from "../assets/img/python.png"
+import sql from "../assets/img/sql.png"
+import tailwind from "../assets/img/tailwind.png"
+
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
@@ -679,20 +699,21 @@ function Home() {
       // --------------------GSAP Animation End----------------------------
 
   
+  //Banned API bcs it is very slow to load the images from the backend api.
   // ------------------- API Start ----------------------------
-  const [image, setImage] = useState([]);
+  // const [image, setImage] = useState([]);
 
-  const getImage = async () => {
-    const response = await axios.get("https://portfolio-api-wnrc.onrender.com/api/img/");
-    //  console.log(response.data)
-    setImage(response.data);
-  };
+  // const getImage = async () => {
+  //   const response = await axios.get("https://portfolio-api-wnrc.onrender.com/api/img/");
+  //   //  console.log(response.data)
+  //   setImage(response.data);
+  // };
 
-  console.log(image);
+  // console.log(image);
 
-  useEffect(() => {
-    getImage();
-  }, []);
+  // useEffect(() => {
+  //   getImage();
+  // }, []);
   // ------------------- API End -----------------------
 
   return (
@@ -712,42 +733,42 @@ function Home() {
           <div id="django" className="tech-logo">
             <img
               className="h-50 skill-img"
-              src={"https://portfolio-api-wnrc.onrender.com/media/images/django.png"}
+              src={django}
               alt=""
             />
           </div>
           <div id="gsap" className="tech-logo">
             <img
               className="h-50 skill-img"
-              src={"https://portfolio-api-wnrc.onrender.com/media/images/react.png"}
+              src={reacts}
               alt=""
             />
           </div>
           <div id="js" className="tech-logo">
             <img
               className="h-50 skill-img"
-              src={"https://portfolio-api-wnrc.onrender.com/media/images/gsap.png"}
+              src={gsaps}
               alt=""
             />
           </div>
           <div id="html" className="tech-logo">
             <img
               className="h-50 skill-img"
-              src={"https://portfolio-api-wnrc.onrender.com/media/images/tailwind.png"}
+              src={tailwind}
               alt=""
             />
           </div>
           <div id="css" className="tech-logo">
             <img
               className="h-50 skill-img"
-              src={"https://portfolio-api-wnrc.onrender.com/media/images/bootstrap.png"}
+              src={bootstrap}
               alt=""
             />
           </div>
           <div id="github" className="tech-logo">
             <img
               className="h-50 skill-img"
-              src={"https://portfolio-api-wnrc.onrender.com/media/images/github.png"}
+              src={github}
               alt=""
             />
           </div>
@@ -761,7 +782,7 @@ function Home() {
         <div className="abtcards">
           <div className="abtcards-top">
             <span id="abt-spn" className="d ">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/ds.png"} alt="" />
+              <img src={ds} alt="" />
               <div className="rght">
                 <h1>Passionate Web Developer</h1>
                 <p>
@@ -771,7 +792,7 @@ function Home() {
             </span>
 
             <span id="abt-spn2" className="d ">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/note.png"} alt="" />
+              <img src={note} alt="" />
               <div className="rght">
                 <h1>Problem Solver</h1>
                 <p>
@@ -786,7 +807,7 @@ function Home() {
           <div className="abtcards-botm">
             <span id="abt-spn3" className="d ">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/laptop.png"}
+                src={laptop}
                 alt=""
               />
               <div className="rght ms-2">
@@ -799,7 +820,7 @@ function Home() {
             </span>
 
             <span id="abt-spn4" className="d ">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/ds.png"} alt="" />
+              <img src={ds} alt="" />
               <div className="rght ms-2">
                 <h1>Technical Skills</h1>
                 <p>
@@ -823,53 +844,53 @@ function Home() {
           <div className="skills-logo">
             <div className="tech-logo django">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/django.png"}
+                src={django}
                 alt=""
               />
             </div>
             <div className="tech-logo gsap ">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/react.png"}
+                src={reacts}
                 alt=""
               />
             </div>
             <div className="tech-logo js">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/gsap.png"} alt="" />
+              <img src={gsaps} alt="" />
             </div>
             <div className="tech-logo html">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/js.png"} alt="" />
+              <img src={js} alt="" />
             </div>
             <div className="tech-logo css">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/css.png"} alt="" />
+              <img src={css} alt="" />
             </div>
             <div className="tech-logo github">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/html.png"} alt="" />
+              <img src={html} alt="" />
             </div>
             <div className="tech-logo sql">
-              <img src={"https://portfolio-api-wnrc.onrender.com/media/images/sql.png"} alt="" />
+              <img src={sql} alt="" />
             </div>
             <div className="tech-logo python">
               <img
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/python.png"}
+                src={python}
                 alt=""
               />
             </div>
             <div className="tech-logo tailwind">
               <img
                 className="h-50"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/tailwind.png"}
+                src={tailwind}
                 alt=""
               />
             </div>
             <div className="tech-logo boots">
               <img
                 className="h-50"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/bootstrap.png"}
+                src={bootstrap}
                 alt=""
               />
             </div>
             <div className="tech-logo boots">
-            <img className="h-50" src={'https://portfolio-api-wnrc.onrender.com/media/images/github.png'} alt=""/>
+            <img className="h-50" src={github} alt=""/>
             </div>
           </div>
         </div>
@@ -879,21 +900,21 @@ function Home() {
             <a href="https://github.com/Kunal-Raj-Pal">
               <img
                 className="githubsm"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/github.png"}
+                src={github}
                 alt=""
               />
             </a>
             <a href="https://www.linkedin.com/in/kunal-raj-pal/">
               <img
                 className="linkdin"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/linkdin.png"}
+                src={linkdin}
                 alt=""
               />
             </a>
             <a href="https://www.instagram.com/kunal_raj_pal">
               <img
                 className="insta"
-                src={"https://portfolio-api-wnrc.onrender.com/media/images/insta.png"}
+                src={insta}
                 alt=""
               />
             </a>
@@ -916,7 +937,7 @@ function Home() {
         </div>
 
         <div className="project-card">
-          <img src={"https://portfolio-api-wnrc.onrender.com/media/images/food.png"} alt="" />
+          <img src={food} alt="" />
           <h1>Restaurant Web</h1>
           <p>
             I have developed a fully responsive Restaurant Web App with Working
